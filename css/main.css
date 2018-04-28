@@ -13,17 +13,21 @@ I've left some boilerplate below for you.
 */
 
 body {
+	margin: 0;
 
 }
 
 article {
+	max-width: 50em;
+	margin: auto;
+	padding: 0 1rem;
 
 }
 
 h1 {
-
+	text-align: center;
 }
 
 img {
-
+	max-width: 100%;
 }
