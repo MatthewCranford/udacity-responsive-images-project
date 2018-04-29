@@ -17,7 +17,7 @@ module.exports = function(grunt) {
             
             // Change these:
             width: 1200,
-            // suffix: 'large',
+            suffix: '_large_2x',
             quality: 30
             
           }]
