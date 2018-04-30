@@ -19,7 +19,7 @@ I've left some boilerplate below for you.
 [class*="zocial-"]:before {
 	font-family: 'zocial', sans-serif;
 	font-size: 2em;
-	
+	text-shadow: 3px 3px 3px rgb(121, 121, 121);
 
   }
 
@@ -34,7 +34,8 @@ article {
 	max-width: 50em;
 	margin: auto;
 	padding: 0 1rem;
-
+	border-bottom: 2px solid black;
+	margin-bottom: 2rem;
 }
 
 h1 {
@@ -53,29 +54,27 @@ figcaption {
 footer {
 	background-color: #dadada;
 	text-align: center;
-
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-
 }
 
-	footer ul {
+	.social {
 		display: flex;
 		justify-content: center;
 		margin: 1em;
 	}
 
-		footer ul a {
+		.social a {
 			text-decoration: none;
 			margin-left: 1rem;
 			width: 50px;
 			color: inherit;
 		}
-			footer ul a:hover {
+			.social a:hover {
 				color: rgb(90, 90, 90)
 			}
-			footer ul a:active {
+			.social a:active {
 				color: rgb(145, 145, 145)
 			}
 
@@ -93,3 +92,4 @@ footer {
 	.logo {
 		text-align: center;
 	}
+
