@@ -18,7 +18,7 @@
   <title>My responsive blog: picture story</title>
 
   <link rel="stylesheet" href="css/main.css" />
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
 
@@ -26,24 +26,23 @@
 
    <header class="header">
       <div class="logo"><svg width="100" height="100">
-          <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+          <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="white" />
           Sorry, your browser does not support inline SVG.
        </svg></div>
       <h1 class="title">My responsive blog</h1>
    </header>
 
-  
+   <picture class="banner">
+    <source media="(min-width: 750px)" srcset="images/still_life-1600_large_x2.jpg 2x, images/still_life-800_large_x1.jpg 1x" >
+    <source media="(min-width: 500px)" srcset="images/still_life-medium.jpg">
+    <img src="images/still_life-small.jpg" alt="Small table with various household items">
+  </picture>
    
   <article>
 
-    <figure>
-      <picture>
-        <source media="(min-width: 750px)" srcset="images/still_life-1600_large_x2.jpg 2x, images/still_life-800_large_x1.jpg 1x" >
-        <source media="(min-width: 500px)" srcset="images/still_life-medium.jpg">
-        <img src="images/still_life-small.jpg" alt="Small table with various household items">
-      </picture>
-      <figcaption>My life.</figcaption>
-    </figure>
+  
+  
+
 
     <h2>My story</h2>
     
